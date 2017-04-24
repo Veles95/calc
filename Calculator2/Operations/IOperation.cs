@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Calculator2
 {
-    class Program
+    interface IUnarOperation
     {
-        static void Main(string[] args)
-        {
-            
-        }
+        double execute(double x);
     }
 }

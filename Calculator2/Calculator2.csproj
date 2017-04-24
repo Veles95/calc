@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="AddOperation.cs" />
     <Compile Include="Calculator.cs" />
+    <Compile Include="Operations\IBinarOperation.cs" />
+    <Compile Include="Operations\IOperation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
