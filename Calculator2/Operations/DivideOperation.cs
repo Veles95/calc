@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace Calculator2
 {
-    class DivideOperation
+    class DivideOperation: IBinarOperation
     {
-        public int Divide(int x, int y)
+        private double Divide(double x, double y)
         {
                 return x / y;
+        }
+
+        public double execute(double x, double y)
+        {
+            return Divide(x, y);
         }
     }
 }
